@@ -1,0 +1,196 @@
+INFO:avi.migrationtools.netscaler_converter.netscaler_converter:Input parameters: /usr/local/lib/python2.7/dist-packages/pytest.py test_migrationtool.py --config /home/jeyanthinath/Documents/Avi/git/sdk/python/avi/migrationtools/test/common/config.yaml
+INFO:avi.migrationtools.netscaler_converter.netscaler_converter:AVI sdk version:  Controller Version: 17.1.1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Started parsing netscaler config file
+ERROR:avi.migrationtools.netscaler_converter.netscaler_parser:Parsing error: #NS11.1 Build 49.16
+
+ERROR:avi.migrationtools.netscaler_converter.netscaler_parser:Parsing error: # Last modified by `save config`, Tue Mar  7 13:27:12 2017
+
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set ns config -IPAddress 10.10.27.116 -netmask 255.255.254.0
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  enable ns mode FR L3 Edge USNIP PMTUD
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set system parameter -doppler DISABLED
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set system user nsroot 18ca68230d4ffbedbde4caa84726eb8a0963cb7f70c53667f -encrypted 
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set rsskeytype -rsstype ASYMMETRIC
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set lacp -sysPriority 32768 -mac 00:50:56:b0:06:4e
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set ns hostName ns-116
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set interface 0/1 -throughput 0 -bandwidthHigh 0 -bandwidthNormal 0 -intftype "XEN Interface" -ifnum 0/1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set interface LO/1 -haMonitor OFF -haHeartbeat OFF -throughput 0 -bandwidthHigh 0 -bandwidthNormal 0 -intftype Loopback -ifnum LO/1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add ns ip6 fe80::250:56ff:feb0:64e/64 -scope link-local -type NSIP -vlan 1 -vServer DISABLED -mgmtAccess ENABLED -dynamicRouting ENABLED
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add ns ip 10.90.118.5 255.255.255.0 -vServer DISABLED
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set nd6RAvariables -vlan 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-BUFFER-OVERFLOW -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-COOKIE -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-CSRF-TAG -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-DENY-URL -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-FIELD-CONSISTENCY -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-FIELD-FORMAT -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-POLICY-HIT -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-REFERER-HEADER -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-SAFE-COMMERCE -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-SAFE-OBJECT -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-SQL -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-START-URL -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-VIOLATIONS-TYPE -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XML-ATTACHMENT -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XML-DOS -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XML-SCHEMA-COMPILE -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XML-SOAP-FAULT -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XML-SQL -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XML-VALIDATION -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XML-WSI -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XML-XSS -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm APPFW-XSS -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm CLUSTER-BACKPLANE-HB-MISSING -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm CLUSTER-NODE-HEALTH -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm CLUSTER-NODE-QUORUM -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm CLUSTER-VERSION-MISMATCH -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm COMPACT-FLASH-ERRORS -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm CONFIG-CHANGE -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm CONFIG-SAVE -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm HA-BAD-SECONDARY-STATE -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm HA-NO-HEARTBEATS -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm HA-SYNC-FAILURE -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm HA-VERSION-MISMATCH -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm HARD-DISK-DRIVE-ERRORS -time 86400 -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm HA-STATE-CHANGE -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm HA-STICKY-PRIMARY -timeout 86400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm PORT-ALLOC-FAILED -time 3600 -timeout 3600
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set snmp alarm SYNFLOOD -timeout 1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set lb parameter -sessionsThreshold 150000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set cache parameter -via "NS-CACHE-10.0: 116"
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set aaa parameter -maxAAAUsers 5
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set ns rpcNode 10.10.27.116 -password 1cd24f21f9f59625994832f6e46e4ca73b3e4db93cbfdb0ce1c89ceb2a164442224801b704c0e9a612e71ef121473c0e -encrypted  -encryptmethod ENCMTHD_3 -srcIP 10.10.27.116
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cmp global ns_adv_nocmp_xml_ie -priority 8700 -gotoPriorityExpression END -type RES_DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cmp global ns_adv_nocmp_mozilla_47 -priority 8800 -gotoPriorityExpression END -type RES_DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cmp global ns_adv_cmp_mscss -priority 8900 -gotoPriorityExpression END -type RES_DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cmp global ns_adv_cmp_msapp -priority 9000 -gotoPriorityExpression END -type RES_DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cmp global ns_adv_cmp_content_type -priority 10000 -gotoPriorityExpression END -type RES_DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache contentGroup DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set cache contentGroup NSFEO -maxResSize 1994752
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache contentGroup BASEFILE -relExpiry 86000 -weakNegRelExpiry 600 -maxResSize 256 -memLimit 2
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache contentGroup DELTAJS -relExpiry 86000 -weakNegRelExpiry 600 -insertAge NO -maxResSize 256 -memLimit 1 -pinned YES
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache contentGroup ctx_cg_poc -relExpiry 86000 -weakNegRelExpiry 600 -insertAge NO -maxResSize 500 -memLimit 256 -pinned YES
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _nonGetReq -rule "!HTTP.REQ.METHOD.eq(GET)" -action NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _advancedConditionalReq -rule "HTTP.REQ.HEADER(\"If-Match\").EXISTS || HTTP.REQ.HEADER(\"If-Unmodified-Since\").EXISTS" -action NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _personalizedReq -rule "HTTP.REQ.HEADER(\"Cookie\").EXISTS || HTTP.REQ.HEADER(\"Authorization\").EXISTS || HTTP.REQ.HEADER(\"Proxy-Authorization\").EXISTS || HTTP.REQ.IS_NTLM_OR_NEGOTIATE" -action MAY_NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _uncacheableStatusRes -rule "! ((HTTP.RES.STATUS.EQ(200)) || (HTTP.RES.STATUS.EQ(304)) || (HTTP.RES.STATUS.BETWEEN(400,499)) || (HTTP.RES.STATUS.BETWEEN(300, 302)) || (HTTP.RES.STATUS.EQ(307))|| (HTTP.RES.STATUS.EQ(203)))" -action NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _uncacheableCacheControlRes -rule "((HTTP.RES.CACHE_CONTROL.IS_PRIVATE) || (HTTP.RES.CACHE_CONTROL.IS_NO_CACHE) || (HTTP.RES.CACHE_CONTROL.IS_NO_STORE) || (HTTP.RES.CACHE_CONTROL.IS_INVALID))" -action NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _cacheableCacheControlRes -rule "((HTTP.RES.CACHE_CONTROL.IS_PUBLIC) || (HTTP.RES.CACHE_CONTROL.IS_MAX_AGE) || (HTTP.RES.CACHE_CONTROL.IS_MUST_REVALIDATE) || (HTTP.RES.CACHE_CONTROL.IS_PROXY_REVALIDATE) || (HTTP.RES.CACHE_CONTROL.IS_S_MAXAGE))" -action CACHE -storeInGroup DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _uncacheableVaryRes -rule "((HTTP.RES.HEADER(\"Vary\").EXISTS) && ((HTTP.RES.HEADER(\"Vary\").INSTANCE(1).LENGTH > 0) || (!HTTP.RES.HEADER(\"Vary\").STRIP_END_WS.SET_TEXT_MODE(IGNORECASE).eq(\"Accept-Encoding\"))))" -action NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _uncacheablePragmaRes -rule "HTTP.RES.HEADER(\"Pragma\").EXISTS" -action NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _cacheableExpiryRes -rule "HTTP.RES.HEADER(\"Expires\").EXISTS" -action CACHE -storeInGroup DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _imageRes -rule "HTTP.RES.HEADER(\"Content-Type\").SET_TEXT_MODE(IGNORECASE).STARTSWITH(\"image/\")" -action CACHE -storeInGroup DEFAULT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy _personalizedRes -rule "HTTP.RES.HEADER(\"Set-Cookie\").EXISTS || HTTP.RES.HEADER(\"Set-Cookie2\").EXISTS" -action NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy ctx_images -rule "HTTP.REQ.URL.SET_TEXT_MODE(IGNORECASE).CONTAINS_INDEX(\"ctx_file_extensions\").BETWEEN(101,150)" -action CACHE -storeInGroup ctx_cg_poc
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy ctx_web_css -rule "HTTP.REQ.URL.ENDSWITH(\".css\")" -action CACHE -storeInGroup ctx_cg_poc
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy ctx_doc_pdf -rule "HTTP.REQ.URL.ENDSWITH(\".pdf\")" -action CACHE -storeInGroup ctx_cg_poc
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy ctx_web_JavaScript -rule "HTTP.REQ.URL.ENDSWITH(\".js\")" -action CACHE -storeInGroup ctx_cg_poc
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy ctx_web_JavaScript-Res -rule "HTTP.RES.HEADER(\"Content-Type\").CONTAINS(\"application/x-javascript\")" -action CACHE -storeInGroup ctx_cg_poc
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policy ctx_NOCACHE_Cleanup -rule TRUE -action NOCACHE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policylabel _reqBuiltinDefaults -evaluates REQ
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add cache policylabel _resBuiltinDefaults -evaluates RES
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _reqBuiltinDefaults -policyName _nonGetReq -priority 100 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _reqBuiltinDefaults -policyName _advancedConditionalReq -priority 200 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _reqBuiltinDefaults -policyName _personalizedReq -priority 300 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _resBuiltinDefaults -policyName _uncacheableStatusRes -priority 100 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _resBuiltinDefaults -policyName _uncacheableVaryRes -priority 200 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _resBuiltinDefaults -policyName _uncacheableCacheControlRes -priority 300 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _resBuiltinDefaults -policyName _cacheableCacheControlRes -priority 400 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _resBuiltinDefaults -policyName _uncacheablePragmaRes -priority 500 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _resBuiltinDefaults -policyName _cacheableExpiryRes -priority 600 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _resBuiltinDefaults -policyName _imageRes -priority 700 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache policylabel _resBuiltinDefaults -policyName _personalizedRes -priority 800 -gotoPriorityExpression END
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache global NOPOLICY -priority 185883 -gotoPriorityExpression USE_INVOCATION_RESULT -type REQ_DEFAULT -invoke policylabel _reqBuiltinDefaults
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind cache global NOPOLICY -priority 185883 -gotoPriorityExpression USE_INVOCATION_RESULT -type RES_DEFAULT -invoke policylabel _resBuiltinDefaults
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set ns encryptionParams -method AES256 -keyValue 3c76a36866f9fe4fb33524e7f7cbf45ebb7719d03301582e1967201602e05d41d7147270c1c17a2e8f6eff4257de4917aabac0a8d8f621b1d8f5a61908c5b6d8b040ebdcd6fb33cc9cc2a120f0939753 -encrypted  -encryptmethod ENCMTHD_3
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set ns diameter -identity netscaler.com -realm com
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set subscriber gxInterface -pcrfRealm pcrf.com -holdOnSubscriberAbsence YES -revalidationTimeout 900 -servicePathAVP 262099 -servicePathVendorid 3845
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set ns tcpbufParam -memLimit 400
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set dns parameter -dns64Timeout 1000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . a.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . b.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . c.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . d.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . e.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . f.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . g.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . h.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . i.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . j.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . k.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . l.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add dns nsRec . m.root-servers.net -TTL 3600000
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set lb monitor ldns-dns LDNS-DNS -query . -queryType Address
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set lb monitor stasecure CITRIX-STA-SERVICE -interval 2 MIN
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set lb monitor sta CITRIX-STA-SERVICE -interval 2 MIN
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add route 0.0.0.0 0.0.0.0 10.10.26.1
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set vpn parameter -forceCleanup none -clientConfiguration all -clientversions "unable "
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  bind tm global -policyName SETTMSESSPARAMS_ADV_POL -priority 65534 -gotoPriorityExpression NEXT
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set L3Param -icmpErrGenerate DISABLED
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add appfw JSONContentType "^application/json$" -isRegex REGEX
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add appfw XMLContentType ".*/xml" -isRegex REGEX
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add appfw XMLContentType ".*/.*\\+xml" -isRegex REGEX
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  add appfw XMLContentType ".*/xml-.*" -isRegex REGEX
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set ip6TunnelParam -srcIP ::
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:Command not supported :  set ptp -state ENABLE
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_parser:File parsed successfully
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_config_converter:Conversion Started
+DEBUG:avi.migrationtools.netscaler_converter.monitor_converter:Conversion started for Health Monitors
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:Conversion started for HTTP profiles
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:HTTP profiles conversion completed
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:Conversion started for TCP profiles
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:TCP profiles conversion completed
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:Conversion started for SSL profiles
+INFO:avi.migrationtools.netscaler_converter.profile_converter:Conversion successful: bind ssl service nskrpcs-127.0.0.1-3009 -certkeyName ns-server-certificate
+INFO:avi.migrationtools.netscaler_converter.profile_converter:Conversion successful: set ssl service nskrpcs-127.0.0.1-3009 -eRSA ENABLED -sessReuse DISABLED
+INFO:avi.migrationtools.netscaler_converter.ns_util:Duplicate profiles: nsrpcs-127.0.0.1-3008 merged in Merged-ssl_profile-w7o-1
+INFO:avi.migrationtools.netscaler_converter.profile_converter:Conversion successful: set ssl service nsrpcs-127.0.0.1-3008 -eRSA ENABLED -sessReuse DISABLED
+INFO:avi.migrationtools.netscaler_converter.ns_util:Duplicate profiles: nsrpcs---1l-3008 merged in Merged-ssl_profile-w7o-1
+INFO:avi.migrationtools.netscaler_converter.profile_converter:Conversion successful: set ssl service nsrpcs-::1l-3008 -eRSA ENABLED -sessReuse DISABLED
+INFO:avi.migrationtools.netscaler_converter.ns_util:Duplicate profiles: nshttps-127.0.0.1-443 merged in Merged-ssl_profile-w7o-1
+INFO:avi.migrationtools.netscaler_converter.profile_converter:Conversion successful: set ssl service nshttps-127.0.0.1-443 -eRSA ENABLED -sessReuse DISABLED
+INFO:avi.migrationtools.netscaler_converter.ns_util:Duplicate profiles: nshttps---1l-443 merged in Merged-ssl_profile-w7o-1
+INFO:avi.migrationtools.netscaler_converter.profile_converter:Conversion successful: set ssl service nshttps-::1l-443 -eRSA ENABLED -sessReuse DISABLED
+INFO:avi.migrationtools.netscaler_converter.ns_util:Duplicate profiles: nsrnatsip-127.0.0.1-5061 merged in Merged-ssl_profile-w7o-1
+INFO:avi.migrationtools.netscaler_converter.profile_converter:Conversion successful: set ssl service nsrnatsip-127.0.0.1-5061 -eRSA ENABLED -sessReuse DISABLED
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:SSL profiles conversion completed
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:SSL profiles conversion completed
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:SSL profiles conversion completed
+DEBUG:avi.migrationtools.netscaler_converter.profile_converter:SSL profiles conversion completed
+DEBUG:avi.migrationtools.netscaler_converter.ns_util:Check started for redirect from HTTP VS to HTTPS VS with no pool
+DEBUG:avi.migrationtools.netscaler_converter.ns_util:Check completed for redirect from HTTP VS to HTTPS VS with no pool
+DEBUG:avi.migrationtools.netscaler_converter.netscaler_config_converter:Conversion completed successfully
+DEBUG:avi.migrationtools.avi_migration_utils:Starting Validation checks ... 
+DEBUG:avi.migrationtools.avi_migration_utils:Validating Merged-ssl_profile-w7o-1 of Object SSLProfile
+DEBUG:avi.migrationtools.avi_migration_utils:Validating property 'Merged-ssl_profile-w7o-1-->accepted_versions-->type'
+DEBUG:avi.migrationtools.avi_migration_utils:Value 'SSL_VERSION_TLS1' is fine
+DEBUG:avi.migrationtools.avi_migration_utils:Validating property 'Merged-ssl_profile-w7o-1-->accepted_versions-->type'
+DEBUG:avi.migrationtools.avi_migration_utils:Value 'SSL_VERSION_TLS1_1' is fine
+DEBUG:avi.migrationtools.avi_migration_utils:Validating property 'Merged-ssl_profile-w7o-1-->accepted_versions-->type'
+DEBUG:avi.migrationtools.avi_migration_utils:Value 'SSL_VERSION_TLS1_2' is fine
+DEBUG:avi.migrationtools.avi_migration_utils:Skipping validation checks for 'Merged-ssl_profile-w7o-1-->tenant_ref'
+DEBUG:avi.migrationtools.avi_migration_utils:Skipping validation checks for 'Merged-ssl_profile-w7o-1-->name'
+DEBUG:avi.migrationtools.avi_migration_utils:Validating property 'Merged-ssl_profile-w7o-1-->enable_ssl_session_reuse'
+DEBUG:avi.migrationtools.avi_migration_utils:Value 'False' is fine
+DEBUG:avi.migrationtools.avi_migration_utils:Validating ns-server-certificate of Object SSLKeyAndCertificate
+DEBUG:avi.migrationtools.avi_migration_utils:Skipping validation checks for 'ns-server-certificate-->tenant_ref'
+DEBUG:avi.migrationtools.avi_migration_utils:Validating property 'ns-server-certificate-->certificate-->certificate'
+DEBUG:avi.migrationtools.avi_migration_utils:Property 'ns-server-certificate-->certificate-->certificate' is not present in generated yaml, reason being the property doesn't have any attribute from the list ['default_value', 'range', 'special_values', 'ref_type']
+DEBUG:avi.migrationtools.avi_migration_utils:Validating property 'ns-server-certificate-->type'
+DEBUG:avi.migrationtools.avi_migration_utils:Value 'SSL_CERTIFICATE_TYPE_VIRTUALSERVICE' is fine
+DEBUG:avi.migrationtools.avi_migration_utils:Skipping validation checks for 'ns-server-certificate-->name'
+DEBUG:avi.migrationtools.avi_migration_utils:Validating property 'ns-server-certificate-->key'
+DEBUG:avi.migrationtools.avi_migration_utils:Property 'ns-server-certificate-->key' is not present in generated yaml, reason being the property doesn't have any attribute from the list ['default_value', 'range', 'special_values', 'ref_type']
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of PoolGroup : 0
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of HTTPPolicySet : 0
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of VirtualService : 0
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of SSLProfile : 1 (5/6 profile merged)
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of SSLKeyAndCertificate : 1
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of NetworkProfile : 0 (0/0 profile merged)
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of VsVip : 0
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of HealthMonitor : 0 (0/0 monitor merged)
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of ApplicationProfile : 0 (0/0 profile merged)
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of PKIProfile : 0
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of StringGroup : 0
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of Pool : 0
+INFO:avi.migrationtools.netscaler_converter.netscaler_config_converter:Total Objects of ApplicationPersistenceProfile : 0 (0/0 profile merged)
+INFO:avi.migrationtools.avi_converter:written avi config file output/Output.json

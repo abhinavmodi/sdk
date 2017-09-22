@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "/usr/bin/python2.7",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true
+    },
+    "code-runner.executorMap": {
+        "python": "export PYTHONPATH=/home/jeyanthinath/Documents/Avi/git/sdk/python && python2.7"
+    }
+}
