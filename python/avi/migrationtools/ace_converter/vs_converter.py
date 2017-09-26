@@ -179,7 +179,7 @@ class VSConverter(object):
                     vs_ip_temp = '{}-vip'.format(vs_ip)
                     vs_ref = self.common_utils.get_object_ref(vs_ip_temp,
                                                               'vsvip')
-        return vs_ref, port, port_end, vs_ip
+        return vs_ref, port, vs_ip
 
     def virtual_service_conversion(self, data):
         vs_list = list()
